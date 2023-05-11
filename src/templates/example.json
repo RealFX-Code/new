@@ -1,0 +1,19 @@
+{
+    "name":"template-format",
+    "category":"examples",
+    "command":{
+        "args": [
+            {
+                "placeholder":"Argument 1",
+                "replace":"{foo}"
+            },
+            {
+                "placeholder":"Argument 2",
+                "replace":"{bar}"
+            }
+        ],
+        "exec":[
+            "echo {foo} {bar}"
+        ]
+    }
+}

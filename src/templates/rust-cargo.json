@@ -1,0 +1,15 @@
+{
+    "name":"cargo",
+    "category":"rust",
+    "command":{
+        "args": [
+            {
+                "placeholder":"Package Name",
+                "replace":"{name}"
+            }
+        ],
+        "exec":[
+            "cargo new {name}"
+        ]
+    }
+}
